@@ -1,2 +1,2 @@
-# BeginnerBot
-A simplistic and easy to understand bot for anyone to learn the discord.js library.
+***Beginner Bot***
+A simplistic bot to help people starting out learn how to utilize the Discord.js lib.
