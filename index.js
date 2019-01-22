@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const prefix = "!"
+bot.login("TOKEN GOES HERE")
+const prefix = "!";
 
 bot.on('ready', () => {
      
