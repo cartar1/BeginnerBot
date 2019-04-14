@@ -30,7 +30,7 @@ bot.on("message", async message => {
     
       const embed = new Discord.RichEmbed()
       .setTitle("Embed")
-      .setColor("RANDOM")
+      .setColor("RANDOM") // Sets the embed color randomly.
       .addField("Field Title", "Field description.")
       
       message.channel.send(embed);
