@@ -12,7 +12,7 @@ bot.on('ready', () => {
 
 bot.on("message", async message => {
   
-    const args = message.content.slice(prefix.length).trim().split(/ +/g);
+    const args = message.content.slice(prefix.length).split(/ +/g);
     if(message.author.bot) return;
     const command = args.shift().toLowerCase();
     const sender = message.author;
