@@ -1,12 +1,14 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login("TOKEN GOES HERE")
-const prefix = "!";
+
+bot.login("TOKEN GOES HERE") // connects to discord
+
+const prefix = "!"; // prefix for the bot to listen for so it can run commands
 
 bot.on('ready', () => {
      
-    bot.user.setActivity("with you!");
-    bot.user.setStatus("dnd");
+    bot.user.setActivity("with you!"); // changes playing status to "playing with you!"
+    bot.user.setStatus("dnd"); // changes status to "do not disturb"
     
 });
 
